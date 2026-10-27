@@ -67,3 +67,56 @@ numerical representations that a neural network can learn and process.
 
 In a Transformer, these initial representations are subsequently
 processed to incorporate information from the surrounding context.
+
+
+
+## Experiment 3: Matrix Transformations
+
+### Objective
+
+Understand how matrix multiplication transforms numerical
+representations from one feature space into another.
+
+### Concepts
+
+- Matrix dimensions and shape compatibility
+- Matrix multiplication
+- Weight matrices
+- Bias vectors
+- Linear transformations
+
+### Implementation
+
+The Python script transforms three illustrative vectors
+using a manually defined weight matrix and bias vector.
+
+The parameters are fixed and are not learned during training.
+
+### Key Takeaway
+
+A weight matrix combines input features to produce new
+representations. Neural networks learn these parameters
+during training to improve their predictions.
+
+
+## Experiment 5: Dot Product
+
+### Objective
+
+Understand the dot product as both a vector operation
+and a building block of neural network computations.
+
+### Concepts
+
+- Element-wise multiplication followed by summation
+- Geometric interpretation of the dot product
+- Relationship between vectors and angles
+- Weighted sums in artificial neurons
+- Dot products in Transformer attention
+
+### Key Takeaway
+
+The dot product combines corresponding vector components
+into a scalar. Neural networks use it to combine input
+features with learned weights, and Transformers use it
+to calculate query-key attention scores.
