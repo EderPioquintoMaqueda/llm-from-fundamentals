@@ -1,36 +1,39 @@
+
 # LLM From Fundamentals
 
-A hands-on learning repository covering the foundations of Large Language Models (LLMs), from Python and mathematical foundations to neural networks, Transformers, language model training, and applied LLM systems.
+A practical exploration of Large Language Models (LLMs), from mathematical foundations to neural network training and applied AI systems.
+
+## Project Overview
+
+This project explores how language models represent information, learn from data, and generate text through mathematical explanations, Python implementations, and reproducible experiments.
 
 ## Learning Roadmap
 
-1. **Python and Data** — Python, NumPy, pandas, data manipulation, and tensors.
-2. **Mathematical Foundations** — Linear algebra, calculus, probability, and statistics.
-3. **Neural Networks** — Neurons, activation functions, loss functions, backpropagation, and optimization.
-4. **Transformers** — Tokenization, embeddings, attention, positional encoding, and Transformer architecture.
-5. **Language Model Training** — Datasets, tokenization pipelines, pretraining, fine-tuning, and evaluation.
-6. **Applied LLMs** — Inference, prompting, retrieval-augmented generation (RAG), and evaluation.
+1. Python and data processing
+2. Mathematical foundations for machine learning
+3. Neural networks and optimization
+4. Transformer architecture and attention
+5. Language model training and evaluation
+6. Applied LLMs, fine-tuning, and retrieval-augmented generation
 
-## Goals
-
-- Understand how LLMs work beyond prompt engineering.
-- Implement concepts with Python and progressively build models from scratch.
-- Practice reproducible workflows using Git and GitHub.
-- Document experiments, code, and technical decisions.
-
-## Tools
+## Technology Stack
 
 - Python
 - NumPy
+- Matplotlib
 - pandas
 - PyTorch
-- Jupyter
+- Hugging Face Transformers
 - Git and GitHub
 
-## Language
+## Methodology
 
-Documentation may include English technical terminology with explanations and learning notes in Spanish.
+Each topic will include conceptual explanations, mathematical derivations, Python implementations, experiments, and documented results.
 
-## Status
+## Scope
 
-Initial repository setup. The learning modules will be developed incrementally.
+Initial experiments will use small models and controlled datasets. They are intended to explain the underlying mechanisms and are not equivalent to training a production-scale LLM.
+
+## Project Status
+
+In progress.
