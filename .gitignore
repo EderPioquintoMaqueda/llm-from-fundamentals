@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model checkpoints and datasets
+checkpoints/
+models/
+data/raw/
+*.pt
+*.pth
+*.safetensors
+
+# Operating system
+.DS_Store
+Thumbs.db
